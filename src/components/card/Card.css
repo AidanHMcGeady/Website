@@ -1,0 +1,41 @@
+.card-container {
+	flex-direction: row;
+	flex-wrap: nowrap;
+	display: flex;
+	transition: 1s ease;
+
+	.card-image {
+		height: 10rem;
+		width: 10rem;
+		float: left;
+	}
+
+	.card-subtitle {
+		margin: 0.5rem 1rem 0;
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	.card-title {
+		display: flex;
+		justify-content: space-between;
+		gap: 1rem;
+		flex-wrap: wrap;
+	}
+
+	.card-text {
+		color: #4b5563;
+		line-height: 1.25;
+		font-size: 16px;
+		text-align: justify;
+		width: 100%;
+	}
+
+	.card-link-container {
+		display: flex;
+		gap: 1rem;
+	}
+}

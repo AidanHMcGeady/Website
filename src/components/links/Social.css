@@ -1,0 +1,109 @@
+.portfolio-section {
+	width: 100%;
+	padding: 32px 5%;
+	background: #15171d;
+	color: #f8fafc;
+}
+
+/* Social section */
+
+.social-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	gap: 8px;
+	padding: 12px 0 36px;
+}
+
+.eyebrow {
+	color: #94a3b8;
+	font-size: 0.75rem;
+	font-weight: 600;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+}
+
+.social-section h2 {
+	margin: 0;
+	font-size: 1.5rem;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+.social-section p {
+	margin: 0 0 12px;
+	color: #9ca3af;
+	font-size: 0.9rem;
+}
+
+/* Social buttons */
+
+.social-links {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 12px;
+}
+
+.social-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+
+	min-width: 140px;
+	padding: 12px 20px;
+
+	color: #f8fafc;
+	background: #22252e;
+	border: 1px solid #383c47;
+	border-radius: 12px;
+
+	font-size: 0.95rem;
+	font-weight: 600;
+	text-decoration: none;
+
+	transition:
+		background 200ms ease,
+		border-color 200ms ease,
+		transform 200ms ease;
+}
+
+.social-button:hover {
+	background: #303440;
+	border-color: #64748b;
+	transform: translateY(-3px);
+}
+
+.linkedin-icon {
+	display: grid;
+	place-items: center;
+	width: 24px;
+	height: 24px;
+	border-radius: 5px;
+	background: #0a66c2;
+	color: white;
+	font-weight: 800;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+	.portfolio-section {
+		padding: 24px 20px;
+	}
+
+	.social-links {
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.social-button {
+		width: 100%;
+	}
+
+	.social-section {
+		padding-bottom: 28px;
+	}
+}
